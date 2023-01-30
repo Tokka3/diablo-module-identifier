@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\admin\source\repos\diablo-module-identifier\diablo-module-identifier\main.cpp(8,26): warning C4018: '<': signed/unsigned mismatch
+  diablo-module-identifier.vcxproj -> C:\Users\admin\source\repos\diablo-module-identifier\Debug\diablo-module-identifier.exe
