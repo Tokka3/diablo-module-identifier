@@ -15,6 +15,9 @@
     <Filter Include="utility">
       <UniqueIdentifier>{f2b6d76a-0fee-43bc-b44b-979e5c01c421}</UniqueIdentifier>
     </Filter>
+    <Filter Include="header">
+      <UniqueIdentifier>{7d18a8d8-321e-4ede-a4a0-5af62e88201c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -33,6 +36,9 @@
     </ClInclude>
     <ClInclude Include="utility.h">
       <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="colour.hpp">
+      <Filter>header</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

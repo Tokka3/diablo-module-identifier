@@ -27,14 +27,14 @@ DWORD get_section_address(PVOID base, const char* name ) {
 	PIMAGE_NT_HEADERS nt_header = get_nt_headers(base);
 	WORD num_sections = nt_header->FileHeader.NumberOfSections;
 	PIMAGE_SECTION_HEADER section = IMAGE_FIRST_SECTION(nt_header);
-	std::cout << "base: " << std::hex <<  nt_header->OptionalHeader.ImageBase << std::endl;
+
 
 
 	for (WORD i = 0; i < num_sections; i++) {
 
 		if (!strcmp(name, (char*)section[i].Name))
 		{
-			std::cout << "virtual add: " << section[i].VirtualAddress << std::endl;
+			
 			return section[i].PointerToRawData;
 		}
 	}
