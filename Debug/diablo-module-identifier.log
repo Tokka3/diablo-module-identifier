@@ -1,4 +1,4 @@
 ﻿  main.cpp
-C:\Users\admin\source\repos\diablo-module-identifier\diablo-module-identifier\main.cpp(12,23): warning C4018: '<': signed/unsigned mismatch
-C:\Users\admin\source\repos\diablo-module-identifier\diablo-module-identifier\main.cpp(217): warning C4715: '<lambda_81756aae5a34f039340f869501383b31>::operator()': not all control paths return a value
+C:\Users\admin\source\repos\diablo-module-identifier\diablo-module-identifier\main.cpp(13,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\admin\source\repos\diablo-module-identifier\diablo-module-identifier\main.cpp(228): warning C4715: '<lambda_81756aae5a34f039340f869501383b31>::operator()': not all control paths return a value
   diablo-module-identifier.vcxproj -> C:\Users\admin\source\repos\diablo-module-identifier\Debug\diablo-module-identifier.exe
